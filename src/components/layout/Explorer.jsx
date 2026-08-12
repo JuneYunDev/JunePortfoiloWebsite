@@ -13,9 +13,9 @@ import {
   Image,
   FileText,
   Mail,
-  Github,
-  Linkedin,
 } from "lucide-react";
+
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { portfolioProjects, aboutItems } from "../../data/portfolioData";
 
@@ -165,7 +165,7 @@ function Explorer() {
           rel="noreferrer"
           className="explorer__single-item"
         >
-          <Github size={17} />
+          <FaGithub size={17} />
           <span>GitHub</span>
         </a>
 
@@ -175,7 +175,7 @@ function Explorer() {
           rel="noreferrer"
           className="explorer__single-item"
         >
-          <Linkedin size={17} />
+          <FaLinkedin size={17} />
           <span>LinkedIn</span>
         </a>
       </div>
