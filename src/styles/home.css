@@ -23,7 +23,7 @@
 .home-hero__content h1 {
   color: #f5f5f5;
 
-  font-size: clamp(38px, 5vw, 58px);
+  font-size: clamp(42px, 5vw, 62px);
 
   line-height: 1.1;
 
@@ -37,7 +37,7 @@
 .home-hero__content h2 {
   color: #4fc1ff;
 
-  font-size: 24px;
+  font-size: 27px;
 
   margin-bottom: 34px;
 }
@@ -51,7 +51,7 @@
 
   color: #c8c8c8;
 
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
@@ -178,7 +178,7 @@
 
   color: #eeeeee;
 
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .summary-card p {
@@ -186,5 +186,5 @@
 
   line-height: 1.6;
 
-  font-size: 14px;
+  font-size: 16px;
 }
