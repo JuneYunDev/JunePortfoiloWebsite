@@ -1,0 +1,82 @@
+.experience-page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 55px 60px 80px;
+}
+
+.experience-page__header {
+  margin-bottom: 45px;
+}
+
+.experience-page__comment {
+  margin-bottom: 10px;
+
+  color: #6a9955;
+
+  font-family: "Consolas", "Courier New", monospace;
+
+  font-size: 1rem;
+}
+
+.experience-page__header h1 {
+  margin-bottom: 16px;
+
+  color: #ffffff;
+
+  font-size: 2.4rem;
+}
+
+.experience-page__header > p:last-child {
+  max-width: 720px;
+
+  color: #bcbcbc;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.experience-code {
+  font-family: "Consolas", "Courier New", monospace;
+
+  font-size: 1.05rem;
+  line-height: 1.9;
+
+  color: #d4d4d4;
+}
+
+.experience-card {
+  margin: 22px 0;
+  padding-left: 30px;
+
+  border-left: 1px solid #343434;
+}
+
+.experience-card__content {
+  padding-left: 30px;
+}
+
+.experience-card__highlights {
+  padding-left: 30px;
+
+  max-width: 850px;
+}
+
+.code-keyword {
+  color: #569cd6;
+}
+
+.code-variable {
+  color: #4fc1ff;
+}
+
+.code-operator {
+  color: #d4d4d4;
+}
+
+.code-property {
+  color: #9cdcfe;
+}
+
+.code-string {
+  color: #ce9178;
+}
