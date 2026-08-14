@@ -81,16 +81,29 @@ function Explorer() {
 
           {portfolioOpen && (
             <div className="explorer__children">
-              {portfolioProjects.map((project) => (
-                <Link
-                  to={project.path}
-                  className="explorer__item"
-                  key={project.id}
-                >
-                  {getProjectIcon(project.type)}
-                  <span>{project.name}</span>
-                </Link>
-              ))}
+              {portfolioProjects.map((project) =>
+                project.external ? (
+                  <a
+                    key={project.id}
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="explorer__item"
+                  >
+                    {getProjectIcon(project.type)}
+                    <span>{project.name}</span>
+                  </a>
+                ) : (
+                  <Link
+                    key={project.id}
+                    to={project.path}
+                    className="explorer__item"
+                  >
+                    {getProjectIcon(project.type)}
+                    <span>{project.name}</span>
+                  </Link>
+                ),
+              )}
             </div>
           )}
         </div>

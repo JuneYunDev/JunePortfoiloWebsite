@@ -15,13 +15,16 @@ export const portfolioProjects = [
     id: "class-registration",
     name: "Class Registration Website",
     type: "web",
-    path: "/projects/class-registration",
+    github: "https://github.com/jiyeong97/collegeRegisterWebsite",
+    external: true,
   },
+
   {
     id: "qa-mobile",
     name: "Q&A Mobile Application",
     type: "mobile",
-    path: "/projects/qa-mobile",
+    github: "https://github.com/jiyeong97/CapstoneProject",
+    external: true,
   },
 ];
 
