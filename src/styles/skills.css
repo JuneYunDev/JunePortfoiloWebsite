@@ -1,0 +1,37 @@
+.skills-page {
+  min-height: 100%;
+  padding: 42px 55px;
+
+  background: #1e1e1e;
+}
+
+.skills-code {
+  max-width: 850px;
+
+  font-family: "Consolas", "Courier New", monospace;
+
+  font-size: 16px;
+  line-height: 1.8;
+
+  color: #d4d4d4;
+}
+
+.code-indent {
+  padding-left: 28px;
+}
+
+.keyword {
+  color: #569cd6;
+}
+
+.variable {
+  color: #4fc1ff;
+}
+
+.property {
+  color: #9cdcfe;
+}
+
+.string {
+  color: #ce9178;
+}
