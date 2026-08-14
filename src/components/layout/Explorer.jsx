@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { ExternalLink } from "lucide-react";
 
 import {
   ChevronDown,
@@ -91,7 +92,13 @@ function Explorer() {
                     className="explorer__item"
                   >
                     {getProjectIcon(project.type)}
+
                     <span>{project.name}</span>
+
+                    <ExternalLink
+                      size={13}
+                      className="explorer__external-icon"
+                    />
                   </a>
                 ) : (
                   <Link

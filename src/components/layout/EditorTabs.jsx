@@ -79,20 +79,6 @@ function EditorTabs() {
           type: "react",
           icon: <Monitor size={16} />,
         };
-
-      case "/projects/qa-mobile":
-        return {
-          label: "QAMobileApp.jsx",
-          type: "mobile",
-          icon: <Smartphone size={16} />,
-        };
-
-      default:
-        return {
-          label: "NotFound",
-          type: "default",
-          icon: <FileText size={16} />,
-        };
     }
   };
 

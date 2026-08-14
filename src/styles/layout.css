@@ -272,6 +272,16 @@
   color: #c586c0;
 }
 
+.explorer__external-icon {
+  margin-left: auto;
+  opacity: 0.45;
+  flex-shrink: 0;
+}
+
+.explorer__item:hover .explorer__external-icon {
+  opacity: 1;
+}
+
 /* Status Bar */
 
 .status-bar {
