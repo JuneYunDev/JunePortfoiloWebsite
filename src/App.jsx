@@ -7,6 +7,10 @@ import StatusBar from "./components/layout/StatusBar";
 
 import HomePage from "./components/home/HomePage";
 import SkillsPage from "./pages/SkillsPage";
+import ExperiencePage from "./pages/ExperiencePage";
+import EducationPage from "./pages/EducationPage";
+import ShoesMarketPage from "./pages/ShoesMarketPage";
+import SortingVisualizerPage from "./pages/SortingVisualizerPage";
 
 function App() {
   return (
@@ -26,6 +30,16 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/skills" element={<SkillsPage />} />
+              <Route path="/experience" element={<ExperiencePage />} />
+              <Route path="/education" element={<EducationPage />} />
+              <Route
+                path="/projects/shoes-market"
+                element={<ShoesMarketPage />}
+              />
+              <Route
+                path="/projects/sorting-visualizer"
+                element={<SortingVisualizerPage />}
+              />
             </Routes>
           </div>
         </section>

@@ -256,6 +256,22 @@
   overflow-y: auto;
 }
 
+.editor-tab.javascript svg {
+  color: #f1d700;
+}
+
+.editor-tab.react svg {
+  color: #61dafb;
+}
+
+.editor-tab.markdown svg {
+  color: #519aba;
+}
+
+.editor-tab.profile svg {
+  color: #c586c0;
+}
+
 /* Status Bar */
 
 .status-bar {
