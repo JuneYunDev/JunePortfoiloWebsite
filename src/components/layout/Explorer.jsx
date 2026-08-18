@@ -191,20 +191,22 @@ function Explorer() {
           href="https://github.com/JuneYunDev"
           target="_blank"
           rel="noreferrer"
-          className="explorer__single-item"
+          className="explorer__item explorer__single-item"
         >
           <FaGithub size={17} />
           <span>GitHub</span>
+          <ExternalLink size={13} className="explorer__external-icon" />
         </a>
 
         <a
           href="https://www.linkedin.com/in/june-yun-6a6b62229/"
           target="_blank"
           rel="noreferrer"
-          className="explorer__single-item"
+          className="explorer__item explorer__single-item"
         >
           <FaLinkedin size={17} />
           <span>LinkedIn</span>
+          <ExternalLink size={13} className="explorer__external-icon" />
         </a>
       </div>
     </aside>
