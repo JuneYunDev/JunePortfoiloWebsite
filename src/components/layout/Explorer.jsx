@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ExternalLink } from "lucide-react";
 
 import {
   ChevronDown,
@@ -14,9 +13,10 @@ import {
   Image,
   FileText,
   Mail,
+  ExternalLink,
 } from "lucide-react";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 import { portfolioProjects, aboutItems } from "../../data/portfolioData";
 
@@ -162,10 +162,18 @@ function Explorer() {
           )}
         </div>
 
-        <Link to="/mini-projects" className="explorer__single-item">
-          <Code2 size={16} />
+        <a
+          href="https://www.youtube.com/@jiyeongyun7468"
+          target="_blank"
+          rel="noreferrer"
+          className="explorer__item explorer__single-item"
+        >
+          <FaYoutube size={18} className="explorer__youtube-icon" />
+
           <span>Mini Projects</span>
-        </Link>
+
+          <ExternalLink size={13} className="explorer__external-icon" />
+        </a>
 
         <Link to="/resume" className="explorer__single-item">
           <FileText size={16} />

@@ -282,6 +282,11 @@
   opacity: 1;
 }
 
+.explorer__youtube-icon {
+  color: #ff0000;
+  flex-shrink: 0;
+}
+
 /* Status Bar */
 
 .status-bar {
