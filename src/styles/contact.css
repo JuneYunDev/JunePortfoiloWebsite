@@ -4,45 +4,50 @@
   display: flex;
   justify-content: center;
 
-  padding: 70px 60px;
+  padding: 85px 70px;
 }
 
 .contact-page__content {
   width: 100%;
-  max-width: 850px;
+  max-width: 1000px;
 }
 
 .contact-page__comment {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 
   color: #6a9955;
 
   font-family: "Consolas", monospace;
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 .contact-page h1 {
-  margin: 0 0 18px;
+  margin: 0 0 22px;
 
   color: #ffffff;
-  font-size: 2.5rem;
+
+  font-size: 3rem;
+  line-height: 1.15;
 }
 
 .contact-page__intro {
-  max-width: 600px;
-  margin-bottom: 40px;
+  max-width: 720px;
+
+  margin-bottom: 48px;
 
   color: #bcbcbc;
 
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: 1.25rem;
+  line-height: 1.8;
 }
 
+/* Contact Card */
+
 .contact-card {
-  margin-bottom: 30px;
+  margin-bottom: 38px;
 
   border: 1px solid #3c3c3c;
-  border-radius: 8px;
+  border-radius: 10px;
 
   background: #202020;
 }
@@ -51,9 +56,9 @@
   display: flex;
   align-items: center;
 
-  gap: 18px;
+  gap: 22px;
 
-  padding: 20px 24px;
+  padding: 26px 30px;
 
   border-bottom: 1px solid #333333;
 }
@@ -63,7 +68,11 @@
 }
 
 .contact-card__item > svg {
+  width: 24px;
+  height: 24px;
+
   color: #9cdcfe;
+
   flex-shrink: 0;
 }
 
@@ -71,27 +80,35 @@
   display: flex;
   flex-direction: column;
 
-  gap: 5px;
+  gap: 7px;
 }
 
 .contact-card__label {
   color: #858585;
 
-  font-size: 0.85rem;
+  font-size: 0.95rem;
+
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .contact-card__item a,
 .contact-card__item div > span:last-child {
   color: #d4d4d4;
 
-  font-size: 1rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.contact-card__item a {
+  text-decoration: none;
 }
 
 .contact-card__item a:hover {
   color: #4fc1ff;
 }
+
+/* Send Email Button */
 
 .contact-page__button {
   width: fit-content;
@@ -99,16 +116,24 @@
   display: flex;
   align-items: center;
 
-  gap: 9px;
+  gap: 11px;
 
-  padding: 11px 18px;
+  padding: 14px 22px;
 
-  border-radius: 5px;
+  border-radius: 6px;
 
   background: #0e639c;
   color: #ffffff;
 
+  font-size: 1.1rem;
+  font-weight: 500;
+
   text-decoration: none;
+}
+
+.contact-page__button svg {
+  width: 20px;
+  height: 20px;
 }
 
 .contact-page__button:hover {
