@@ -180,7 +180,7 @@ function Explorer() {
           <span>Resume</span>
         </Link>
 
-        <Link to="/contact" className="explorer__single-item">
+        <Link to="/contact" className="explorer__item explorer__single-item">
           <Mail size={16} />
           <span>Contact</span>
         </Link>

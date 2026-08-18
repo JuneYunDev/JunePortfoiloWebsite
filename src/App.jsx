@@ -12,6 +12,7 @@ import EducationPage from "./pages/EducationPage";
 import ShoesMarketPage from "./pages/ShoesMarketPage";
 import SortingVisualizerPage from "./pages/SortingVisualizerPage";
 import ApplicationDesignPage from "./pages/ApplicationDesignPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
                 path="/design/application-ui"
                 element={<ApplicationDesignPage />}
               />
+              <Route path="/contact" element={<ContactPage />} />
             </Routes>
           </div>
         </section>
