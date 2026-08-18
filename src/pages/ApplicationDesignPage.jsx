@@ -1,7 +1,10 @@
 import { ExternalLink, Download } from "lucide-react";
+
 import "../styles/applicationDesign.css";
 
 function ApplicationDesignPage() {
+  const pdfPath = "/documents/ApplicationDesign.pdf";
+
   return (
     <main className="design-page">
       <div className="design-page__header">
@@ -11,22 +14,19 @@ function ApplicationDesignPage() {
           <h1>Application UI Design</h1>
 
           <p>
-            Application interface designs created with Figma, focusing on
-            usability, layout, and visual consistency.
+            Mobile application interface designs created for the "Let's Go"
+            project, including profile, authentication, event, notification, and
+            social interaction screens.
           </p>
         </div>
 
         <div className="design-page__actions">
-          <a
-            href="/documents/ApplicationDesign.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={pdfPath} target="_blank" rel="noreferrer">
             <ExternalLink size={18} />
             Open PDF
           </a>
 
-          <a href="/documents/ApplicationDesign.pdf" download>
+          <a href={pdfPath} download="ApplicationDesign.pdf">
             <Download size={18} />
             Download
           </a>
@@ -34,10 +34,7 @@ function ApplicationDesignPage() {
       </div>
 
       <div className="design-page__viewer">
-        <iframe
-          src="/documents/ApplicationDesign.pdf"
-          title="Application UI Design Portfolio"
-        />
+        <iframe src={pdfPath} title="Application UI Design Portfolio" />
       </div>
     </main>
   );

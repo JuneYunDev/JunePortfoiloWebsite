@@ -73,11 +73,18 @@ function EditorTabs() {
           icon: <Code2 size={16} />,
         };
 
-      case "/projects/class-registration":
+      case "/design/application-ui":
         return {
-          label: "ClassRegistration.jsx",
-          type: "react",
-          icon: <Monitor size={16} />,
+          label: "ApplicationDesign.pdf",
+          type: "pdf",
+          icon: <FileText size={16} />,
+        };
+
+      default:
+        return {
+          label: "Untitled",
+          type: "default",
+          icon: <FileText size={16} />,
         };
     }
   };

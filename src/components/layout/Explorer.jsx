@@ -154,7 +154,7 @@ function Explorer() {
 
           {designOpen && (
             <div className="explorer__children">
-              <Link to="/design" className="explorer__item">
+              <Link to="/design/application-ui" className="explorer__item">
                 <Image size={16} />
                 <span>Application UI Design</span>
               </Link>
