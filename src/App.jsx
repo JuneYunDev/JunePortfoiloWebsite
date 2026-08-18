@@ -11,6 +11,7 @@ import ExperiencePage from "./pages/ExperiencePage";
 import EducationPage from "./pages/EducationPage";
 import ShoesMarketPage from "./pages/ShoesMarketPage";
 import SortingVisualizerPage from "./pages/SortingVisualizerPage";
+import ApplicationDesignPage from "./pages/ApplicationDesignPage";
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
               <Route
                 path="/projects/sorting-visualizer"
                 element={<SortingVisualizerPage />}
+              />
+              <Route
+                path="/design/application-ui"
+                element={<ApplicationDesignPage />}
               />
             </Routes>
           </div>

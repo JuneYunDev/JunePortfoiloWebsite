@@ -50,3 +50,12 @@ export const aboutItems = [
     path: "/education",
   },
 ];
+
+export const designItems = [
+  {
+    id: "application-design",
+    name: "Application UI Design",
+    type: "pdf",
+    path: "/design/application-ui",
+  },
+];
