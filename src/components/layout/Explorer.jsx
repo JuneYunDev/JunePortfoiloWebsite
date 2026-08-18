@@ -188,7 +188,7 @@ function Explorer() {
         <div className="explorer__divider" />
 
         <a
-          href="https://github.com/"
+          href="https://github.com/JuneYunDev"
           target="_blank"
           rel="noreferrer"
           className="explorer__single-item"
@@ -198,7 +198,7 @@ function Explorer() {
         </a>
 
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/june-yun-6a6b62229/"
           target="_blank"
           rel="noreferrer"
           className="explorer__single-item"
