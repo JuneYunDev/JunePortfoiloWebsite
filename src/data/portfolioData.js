@@ -4,12 +4,20 @@ export const portfolioProjects = [
     name: "Online Shoes Market",
     type: "javascript",
     path: "/projects/shoes-market",
+
+    liveDemo: "https://shoes.juneyun.tech",
+
+    github: "https://github.com/JuneYunDev/ShoesMarket",
   },
   {
     id: "sorting-visualizer",
     name: "Sorting Algorithm Visualizer",
     type: "javascript",
     path: "/projects/sorting-visualizer",
+
+    liveDemo: "https://sorting.juneyun.tech",
+
+    github: "https://github.com/JuneYunDev/SortingAlgorithmVisualizer",
   },
   {
     id: "class-registration",
