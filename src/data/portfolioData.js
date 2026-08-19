@@ -5,7 +5,7 @@ export const portfolioProjects = [
     type: "javascript",
     path: "/projects/shoes-market",
 
-    liveDemo: "https://shoes.juneyun.tech",
+    liveDemo: "http://shoes.juneyun.tech",
 
     github: "https://github.com/JuneYunDev/ShoesMarket",
   },
@@ -15,7 +15,7 @@ export const portfolioProjects = [
     type: "javascript",
     path: "/projects/sorting-visualizer",
 
-    liveDemo: "https://sorting.juneyun.tech",
+    liveDemo: "http://sorting.juneyun.tech",
 
     github: "https://github.com/JuneYunDev/SortingAlgorithmVisualizer",
   },

@@ -64,7 +64,21 @@
   margin-top: 40px;
 }
 
-.primary-button,
+.profile-photo {
+  width: 250px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #555555;
+  border-radius: 12px;
+  display: block;
+}
+
+.primary-button {
+  background: #0e4b8d;
+  text-decoration: none;
+}
+
 .secondary-button {
   min-height: 52px;
 

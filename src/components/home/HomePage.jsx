@@ -35,10 +35,15 @@ function HomePage() {
           </div>
 
           <div className="home-hero__buttons">
-            <button className="primary-button">
+            <a
+              href="https://github.com/JuneYunDev/JunePortfoiloWebsite"
+              target="_blank"
+              rel="noreferrer"
+              className="primary-button"
+            >
               <FolderOpen size={18} />
-              View Projects
-            </button>
+              View GitHub
+            </a>
 
             <button className="secondary-button">
               <Download size={18} />
@@ -48,9 +53,7 @@ function HomePage() {
         </div>
 
         <div className="home-hero__photo">
-          <div className="photo-placeholder">
-            <span>Your Photo</span>
-          </div>
+          <img src="/Profile.jpg" alt="June Yun" className="profile-photo" />
         </div>
       </section>
 
