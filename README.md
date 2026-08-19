@@ -1,16 +1,78 @@
-# React + Vite
+# June Yun | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio website built with **React and JavaScript**, designed with a **Visual Studio Code-inspired interface**.
 
-Currently, two official plugins are available:
+The website showcases my software development skills, experience, education, and projects through an interactive developer-focused UI. It also provides live demos of selected projects deployed on my own domain.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Live Website
 
-## React Compiler
+**Portfolio:** https://juneyun.tech
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Live Project Demos
 
-## Expanding the ESLint configuration
+- **Online Shoes Market:** https://shoes.juneyun.tech
+- **Sorting Algorithm Visualizer:** https://sorting.juneyun.tech
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Motivation
+
+I created this portfolio to present my projects and development experience in a way that reflects my interest in software development.
+
+Instead of using a traditional portfolio layout, I designed the website around the familiar interface of **Visual Studio Code**. The sidebar, Explorer, editor tabs, and content area are inspired by a development environment and allow visitors to navigate my portfolio as if they were exploring a software project.
+
+The portfolio also serves as a central place where recruiters and developers can explore my projects, technical skills, experience, and live applications.
+
+---
+
+## Features
+
+- Visual Studio Code-inspired user interface
+- Interactive Explorer sidebar
+- Dynamic editor tabs
+- React Router-based navigation
+- About Me section
+- Technical Skills page
+- Work Experience page
+- Education page
+- Individual project pages
+- External GitHub project links
+- Live project demos
+- Application UI design showcase
+- Contact information
+- Responsive layout
+
+---
+
+## Technologies
+
+### Frontend
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Vite
+
+### Development Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+- Figma
+- npm
+
+### Deployment
+
+- Hostinger VPS
+- Ubuntu
+- Nginx
+- Certbot
+- Custom Domain & Subdomains
+
+---
+
+## License
+
+This project was created as a personal software developer portfolio.
