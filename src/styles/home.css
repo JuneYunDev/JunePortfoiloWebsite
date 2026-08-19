@@ -74,11 +74,7 @@
   display: block;
 }
 
-.primary-button {
-  background: #0e4b8d;
-  text-decoration: none;
-}
-
+.primary-button,
 .secondary-button {
   min-height: 52px;
 
@@ -100,6 +96,7 @@
 
 .primary-button {
   background: #0e4b8d;
+  text-decoration: none;
 }
 
 .primary-button:hover {
