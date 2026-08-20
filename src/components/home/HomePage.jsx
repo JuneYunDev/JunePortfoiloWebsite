@@ -45,10 +45,14 @@ function HomePage() {
               View GitHub
             </a>
 
-            <button className="secondary-button">
+            <a
+              href="/documents/Resume.pdf"
+              download="June_Yun_Resume.pdf"
+              className="secondary-button"
+            >
               <Download size={18} />
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
 

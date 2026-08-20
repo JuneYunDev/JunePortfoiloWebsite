@@ -13,6 +13,7 @@ import ShoesMarketPage from "./pages/ShoesMarketPage";
 import SortingVisualizerPage from "./pages/SortingVisualizerPage";
 import ApplicationDesignPage from "./pages/ApplicationDesignPage";
 import ContactPage from "./pages/ContactPage";
+import ResumePage from "./pages/ResumePage";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
                 element={<ApplicationDesignPage />}
               />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/resume" element={<ResumePage />} />
             </Routes>
           </div>
         </section>

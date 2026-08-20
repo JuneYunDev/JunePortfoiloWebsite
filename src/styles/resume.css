@@ -1,0 +1,92 @@
+.resume-page {
+  height: 100%;
+  padding: 38px 48px 60px;
+}
+
+.resume-page__header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.resume-page__label {
+  margin-bottom: 8px;
+
+  color: #6a9955;
+
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 14px;
+}
+
+.resume-page__header h1 {
+  margin: 0 0 7px;
+
+  color: #f5f5f5;
+  font-size: 32px;
+}
+
+.resume-page__subtitle {
+  margin: 0;
+
+  color: #4fc1ff;
+  font-size: 17px;
+}
+
+.resume-page__actions {
+  display: flex;
+  gap: 12px;
+}
+
+.resume-button {
+  min-height: 42px;
+  padding: 0 16px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  border: 1px solid #555;
+  border-radius: 5px;
+
+  color: #fff;
+  text-decoration: none;
+
+  transition: background 0.2s ease;
+}
+
+.resume-button:hover {
+  background: #2a2d2e;
+}
+
+.resume-button--primary {
+  border-color: #0e639c;
+  background: #0e639c;
+}
+
+.resume-button--primary:hover {
+  background: #1177bb;
+}
+
+.resume-page__viewer {
+  max-width: 1100px;
+  height: 900px;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+
+  background: #252526;
+}
+
+.resume-page__iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

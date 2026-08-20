@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import {
   ChevronDown,
@@ -175,10 +175,10 @@ function Explorer() {
           <ExternalLink size={13} className="explorer__external-icon" />
         </a>
 
-        <Link to="/resume" className="explorer__single-item">
+        <NavLink to="/resume" className="explorer__item explorer__single-item">
           <FileText size={16} />
           <span>Resume</span>
-        </Link>
+        </NavLink>
 
         <Link to="/contact" className="explorer__item explorer__single-item">
           <Mail size={16} />
